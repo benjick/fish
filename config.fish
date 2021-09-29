@@ -1,6 +1,6 @@
 # Environment variables
 set -gx CHROME_EXECUTABLE $CHROME_EXECUTABLE /usr/local/bin/chromium
 
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
+# $PATH
+fish_add_path -g /Users/max/flutter/bin
+fish_add_path -g /Users/max/google-cloud-sdk/bin
