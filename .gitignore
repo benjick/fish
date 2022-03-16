@@ -1,1 +1,5 @@
 conf.d/secrets.fish
+functions/_nvm_*
+*/nvm.fish
+functions/fisher.fish
+completions
